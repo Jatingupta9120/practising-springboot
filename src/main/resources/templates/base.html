@@ -1,0 +1,14 @@
+<div class="parent-fragment" th:fragment="parent(content)">
+    <h1>This is a base class</h1>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem
+        nisi eum non ea, iusto, aperiam autem ratione suscipit modi esse,
+        dolorum facilis repudiandae! Dolore dolores in nam. Aliquid, consectetur
+        explicabo.
+    </p>
+    <div th:replace="${content}"></div>
+</div>
+
+<div data-th-fragment="test(content)">
+    <h1>this is a testing Framework 
+</div>
